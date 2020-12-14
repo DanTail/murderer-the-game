@@ -1,0 +1,23 @@
+{
+  "name": "murderer-the-game",
+  "version": "1.0.0",
+  "description": "This is a social deduction browser game project, similar to One Night Werewolf or Avalon.\r ### Testing\r First you need to install cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanTail/murderer-the-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanTail/murderer-the-game/issues"
+  },
+  "homepage": "https://github.com/DanTail/murderer-the-game#readme",
+  "dependencies": {
+    "cypress": "^6.1.0"
+  }
+}
