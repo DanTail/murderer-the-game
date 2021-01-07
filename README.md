@@ -23,6 +23,15 @@ or
 $ docker-compose up -d
 ```
 
+####For development
+
+Linter
+
+```shell
+$ npm run lint
+$ npm run lint-fix
+```
+
 ### Testing
 First you need to install cypress
 
