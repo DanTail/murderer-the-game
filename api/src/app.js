@@ -1,13 +1,10 @@
 const express = require('express')
-const dotenv = require('dotenv').config()
 const db = require('./models/db')
 
 const app = express()
 const port = 5000
 
-app.get('/', function (req, res) {
-    res.send('Hello World')
-})
+app.use(require('./routes/lobby'));
 
 app.listen(port, (err) => {
     if (err) {
