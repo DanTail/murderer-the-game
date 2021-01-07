@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --watch ./src ./src/app.js",
+    "lint": "npx eslint ./src --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gergő Ility",
@@ -14,5 +15,10 @@
     "express": "^4.17.1",
     "mongodb": "^3.6.3",
     "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   }
 }
